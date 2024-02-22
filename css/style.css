@@ -2212,7 +2212,7 @@ select.form-control:focus::-ms-value {
   margin-bottom: 40px;
 }
 @media (max-width: 768px) {
-  .img {
+  .one-third {
     display: none;
   }
 }
