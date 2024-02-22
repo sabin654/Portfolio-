@@ -2207,12 +2207,19 @@ select.form-control:focus::-ms-value {
 }
 
 .one-third {
-  height: 20px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-
-  /* Adjust the height as needed */
+  height: 600px;
+  margin-top: 70px;
+  margin-bottom: 40px;
 }
+@media (max-width: 768px) {
+  .img {
+    display: none;
+  }
+}
+/* Media query for screens up to 768px */
+
+/* Media query for screens larger than 768px */
+
 .bheading a {
   color: #ffffff;
   font-size: 20px;
