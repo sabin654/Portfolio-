@@ -12611,12 +12611,12 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
-  .pl-lg-5-responsive {
-    padding-left: 30px; /* Adjust this value according to your design */
+  #about-section {
+    padding-left: 15px; /* Adjust this value according to your design */
   }
   .about-info {
     text-align: left;
-    padding-left: 20px; /* Align text properly */
+    display: block; /* Align text properly */
   }
 }
 #ftco-loader {
